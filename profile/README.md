@@ -6,9 +6,12 @@
 
 [![HACS](https://img.shields.io/badge/HACS-Custom-orange.svg)](https://hacs.xyz)
 [![Home Assistant](https://img.shields.io/badge/Home%20Assistant-compatible-41BDF5.svg)](https://www.home-assistant.io)
+[![Site web](https://img.shields.io/badge/site-akoonet.com-blue.svg)](https://www.akoonet.com)
 [![Licence](https://img.shields.io/badge/licence-open%20source-green.svg)](#-licence)
 
 🇫🇷 Français · [🇬🇧 English](#-english)
+
+🌐 **Site web : [www.akoonet.com](https://www.akoonet.com)**
 
 </div>
 
@@ -16,20 +19,22 @@
 
 ## 👋 Présentation
 
-Bienvenue sur la page de l'organisation **Akoonet – Home Assistant**.
+Bienvenue sur la page **Akoonet – Home Assistant**.
 
-Nous développons des intégrations pour **Home Assistant** avec une approche rigoureuse : des composants propres, documentés, configurables depuis l'interface graphique, et faciles à installer grâce à **HACS**.
+Je développe des intégrations pour **Home Assistant** avec une approche rigoureuse : des composants propres, documentés, configurables depuis l'interface graphique, et faciles à installer grâce à **HACS**.
 
-Notre philosophie :
+Ma philosophie :
 
 - 🎯 **Fiabilité d'abord** : des comportements prévisibles, testés et documentés.
 - 🖥️ **Tout dans l'interface** : configuration via l'UI, sans édition manuelle de YAML quand c'est possible.
 - 📖 **Documentation claire** : README en français, version anglaise, captures d'écran et liste des entités.
-- 🔬 **Honnêteté technique** : pas de formules inventées, on distingue ce qui est validé de ce qui ne l'est pas.
+- 🔬 **Honnêteté technique** : pas de formules inventées, je distingue ce qui est validé de ce qui ne l'est pas.
+
+Plus d'informations sur mes activités : **[www.akoonet.com](https://www.akoonet.com)**
 
 ---
 
-## 📦 Nos projets
+## 📦 Mes projets
 
 | Projet | Description | Installation |
 |--------|-------------|--------------|
@@ -37,7 +42,7 @@ Notre philosophie :
 | [**volets_intelligents**](https://github.com/akoonet-homeassistant/volets_intelligents) | Gestion intelligente des volets (automatisations, panneau de configuration dédié) | HACS |
 | [**Lights Simulator**](https://github.com/akoonet-homeassistant/lights_simulator) | Simulateur de présence par les lumières, pour rendre la maison « vivante » en votre absence | HACS |
 
-> ℹ️ Adaptez les noms et liens ci-dessus aux dépôts réellement publiés dans l'organisation.
+> ℹ️ Adaptez les noms et liens ci-dessus aux dépôts réellement publiés.
 
 ---
 
@@ -71,6 +76,8 @@ Chaque dépôt précise sa version minimale de Home Assistant dans son README.
 - **Une idée ?** Proposez-la via une issue ou une *discussion*.
 - **Une contribution ?** Les *pull requests* sont les bienvenues : forkez le dépôt, créez une branche dédiée, décrivez clairement la modification.
 
+Je gère ces projets seul sur mon temps libre : merci de votre patience pour les réponses.
+
 > 🔒 Avant de partager des logs ou des captures d'écran, pensez à retirer toute information personnelle (noms d'entités, adresses, identifiants, jetons).
 
 ---
@@ -86,7 +93,7 @@ Chaque dépôt précise sa version minimale de Home Assistant dans son README.
 
 ## 📄 Licence
 
-Sauf mention contraire dans le dépôt concerné, les projets sont publiés sous licence open source. Consultez le fichier `LICENSE` de chaque dépôt.
+Sauf mention contraire dans le dépôt concerné, mes projets sont publiés sous licence open source. Consultez le fichier `LICENSE` de chaque dépôt.
 
 ---
 
@@ -94,11 +101,13 @@ Sauf mention contraire dans le dépôt concerné, les projets sont publiés sous
 
 ## 🇬🇧 English
 
+🌐 **Website: [www.akoonet.com](https://www.akoonet.com)**
+
 ### About
 
-Welcome to the **Akoonet – Home Assistant** organization page.
+Welcome to the **Akoonet – Home Assistant** page.
 
-We build **custom integrations for Home Assistant**, installable through **HACS**, with a focus on reliability, UI-based configuration and clear documentation.
+I build **custom integrations for Home Assistant**, installable through **HACS**, with a focus on reliability, UI-based configuration and clear documentation.
 
 ### Projects
 
@@ -119,10 +128,10 @@ We build **custom integrations for Home Assistant**, installable through **HACS*
 
 ### Support & contributions
 
-Please open an issue in the relevant repository with your Home Assistant version, the integration version, relevant debug logs and reproduction steps. Pull requests are welcome.
+Please open an issue in the relevant repository with your Home Assistant version, the integration version, relevant debug logs and reproduction steps. Pull requests are welcome. I maintain these projects alone in my spare time, so thanks for your patience.
 
 > 🔒 Remove any personal information (entity names, addresses, tokens) before sharing logs or screenshots.
 
 ### License
 
-Unless stated otherwise in a repository, projects are released under an open source license. See each repository's `LICENSE` file.
+Unless stated otherwise in a repository, my projects are released under an open source license. See each repository's `LICENSE` file.
