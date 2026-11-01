@@ -41,8 +41,7 @@ Plus d'informations sur mes activités : **[www.akoonet.com](https://www.akoonet
 | [**Calypshome-ha**](https://github.com/akoonet-homeassistant/Calypshome-ha) | Intégration des volets **Calyps'HOME / Avidsen** dans Home Assistant | HACS |
 | [**volets_intelligents**](https://github.com/akoonet-homeassistant/volets_intelligents) | Gestion intelligente des volets (automatisations, panneau de configuration dédié) | HACS |
 | [**Lights Simulator**](https://github.com/akoonet-homeassistant/lights_simulator) | Simulateur de présence par les lumières, pour rendre la maison « vivante » en votre absence | HACS |
-
-> ℹ️ Adaptez les noms et liens ci-dessus aux dépôts réellement publiés.
+| [**Edilkamin Control**](https://github.com/akoonet-homeassistant/edilkamin_control) | Programmation et pilotage d'un poêle à granulés **Edilkamin** via un ESP32 (MQTT / Bluetooth) : programmations, carte Lovelace, suivi des granulés et des allumages | HACS + [firmware ESP32 en un clic](https://akoonet-homeassistant.github.io/edilkamin_control/webflash/) |
 
 ---
 
@@ -61,7 +60,7 @@ Plus d'informations sur mes activités : **[www.akoonet.com](https://www.akoonet
 
 - Une installation **Home Assistant** récente (Core, OS, Container ou Supervised).
 - **HACS** installé et configuré.
-- Selon l'intégration : le matériel correspondant (volets, lumières, passerelle, etc.).
+- Selon l'intégration : le matériel correspondant (volets, lumières, passerelle, ESP32 pour le poêle Edilkamin, etc.).
 
 Chaque dépôt précise sa version minimale de Home Assistant dans son README.
 
@@ -116,6 +115,7 @@ I build **custom integrations for Home Assistant**, installable through **HACS**
 | [**Calypshome-ha**](https://github.com/akoonet-homeassistant/Calypshome-ha) | Integration for **Calyps'HOME / Avidsen** shutters |
 | [**volets_intelligents**](https://github.com/akoonet-homeassistant/volets_intelligents) | Smart shutter management with a dedicated configuration panel |
 | [**Lights Simulator**](https://github.com/akoonet-homeassistant/lights_simulator) | Presence simulator using your lights while you are away |
+| [**Edilkamin Control**](https://github.com/akoonet-homeassistant/edilkamin_control) | Scheduling and control of an **Edilkamin** pellet stove through an ESP32 (MQTT / Bluetooth): schedules, Lovelace card, pellet and ignition tracking — [one-click ESP32 firmware](https://akoonet-homeassistant.github.io/edilkamin_control/webflash/) |
 
 ### Install with HACS
 
