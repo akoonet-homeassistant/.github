@@ -4,7 +4,7 @@
 
 **Intégrations personnalisées pour Home Assistant, installables via HACS**
 
-[![HACS](https://img.shields.io/badge/HACS-Custom-orange.svg)](https://hacs.xyz)
+[![HACS](https://img.shields.io/badge/HACS-Default-41BDF5.svg)](https://hacs.xyz)
 [![Home Assistant](https://img.shields.io/badge/Home%20Assistant-compatible-41BDF5.svg)](https://www.home-assistant.io)
 [![Site web](https://img.shields.io/badge/site-akoonet.com-blue.svg)](https://www.akoonet.com)
 [![Licence](https://img.shields.io/badge/licence-open%20source-green.svg)](#-licence)
@@ -38,21 +38,23 @@ Plus d'informations sur mes activités : **[www.akoonet.com](https://www.akoonet
 
 | Projet | Description | Installation |
 |--------|-------------|--------------|
-| [**Calypshome-ha**](https://github.com/akoonet-homeassistant/Calypshome-ha) | Intégration des volets **Calyps'HOME / Avidsen** dans Home Assistant | HACS |
-| [**volets_intelligents**](https://github.com/akoonet-homeassistant/volets_intelligents) | Gestion intelligente des volets (automatisations, panneau de configuration dédié) | HACS |
-| [**Lights Simulator**](https://github.com/akoonet-homeassistant/lights_simulator) | Simulateur de présence par les lumières, pour rendre la maison « vivante » en votre absence | HACS |
-| [**Edilkamin Control**](https://github.com/akoonet-homeassistant/edilkamin_control) | Programmation et pilotage d'un poêle à granulés **Edilkamin** via un ESP32 (MQTT / Bluetooth) : programmations, carte Lovelace, suivi des granulés et des allumages | HACS + [firmware ESP32 en un clic](https://akoonet-homeassistant.github.io/edilkamin_control/webflash/) |
+| [**Calypshome-ha**](https://github.com/akoonet-homeassistant/Calypshome-ha) | Intégration des volets **Calyps'HOME / Avidsen** dans Home Assistant | ✅ HACS par défaut |
+| [**volets_intelligents**](https://github.com/akoonet-homeassistant/volets_intelligents) | Gestion intelligente des volets (automatisations, panneau de configuration dédié) | ✅ HACS par défaut |
+| [**Lights Simulator**](https://github.com/akoonet-homeassistant/lights_simulator) | Simulateur de présence par les lumières, pour rendre la maison « vivante » en votre absence | ✅ HACS par défaut |
+| [**Edilkamin Control**](https://github.com/akoonet-homeassistant/edilkamin_control) | Programmation et pilotage d'un poêle à granulés **Edilkamin** via un ESP32 (MQTT / Bluetooth) : programmations, carte Lovelace, suivi des granulés et des allumages | HACS (dépôt personnalisé, inclusion par défaut en cours) + [firmware ESP32 en un clic](https://akoonet-homeassistant.github.io/edilkamin_control/webflash/) |
 
 ---
 
 ## 🚀 Installation via HACS
 
+**Calypshome-ha**, **volets_intelligents** et **Lights Simulator** font partie des dépôts **HACS par défaut** : aucun dépôt personnalisé à ajouter.
+
 1. Ouvrir **HACS** dans Home Assistant.
-2. Menu **⋮** (en haut à droite) → **Dépôts personnalisés**.
-3. Coller l'URL du dépôt souhaité, choisir le type **Intégration**, puis **Ajouter**.
-4. Rechercher l'intégration dans HACS, cliquer sur **Télécharger**.
-5. **Redémarrer** Home Assistant.
-6. Aller dans **Paramètres → Appareils et services → Ajouter une intégration** et sélectionner l'intégration.
+2. Rechercher l'intégration par son nom, cliquer sur **Télécharger**.
+3. **Redémarrer** Home Assistant.
+4. Aller dans **Paramètres → Appareils et services → Ajouter une intégration** et sélectionner l'intégration.
+
+Pour **Edilkamin Control**, en attendant son inclusion dans HACS par défaut, ajoutez d'abord le dépôt : menu **⋮** (en haut à droite) → **Dépôts personnalisés** → coller l'URL du dépôt, type **Intégration**, puis **Ajouter**. Suivez ensuite les étapes ci-dessus.
 
 ---
 
@@ -110,21 +112,23 @@ I build **custom integrations for Home Assistant**, installable through **HACS**
 
 ### Projects
 
-| Project | Description |
-|---------|-------------|
-| [**Calypshome-ha**](https://github.com/akoonet-homeassistant/Calypshome-ha) | Integration for **Calyps'HOME / Avidsen** shutters |
-| [**volets_intelligents**](https://github.com/akoonet-homeassistant/volets_intelligents) | Smart shutter management with a dedicated configuration panel |
-| [**Lights Simulator**](https://github.com/akoonet-homeassistant/lights_simulator) | Presence simulator using your lights while you are away |
-| [**Edilkamin Control**](https://github.com/akoonet-homeassistant/edilkamin_control) | Scheduling and control of an **Edilkamin** pellet stove through an ESP32 (MQTT / Bluetooth): schedules, Lovelace card, pellet and ignition tracking — [one-click ESP32 firmware](https://akoonet-homeassistant.github.io/edilkamin_control/webflash/) |
+| Project | Description | Installation |
+|---------|-------------|--------------|
+| [**Calypshome-ha**](https://github.com/akoonet-homeassistant/Calypshome-ha) | Integration for **Calyps'HOME / Avidsen** shutters | ✅ HACS default |
+| [**volets_intelligents**](https://github.com/akoonet-homeassistant/volets_intelligents) | Smart shutter management with a dedicated configuration panel | ✅ HACS default |
+| [**Lights Simulator**](https://github.com/akoonet-homeassistant/lights_simulator) | Presence simulator using your lights while you are away | ✅ HACS default |
+| [**Edilkamin Control**](https://github.com/akoonet-homeassistant/edilkamin_control) | Scheduling and control of an **Edilkamin** pellet stove through an ESP32 (MQTT / Bluetooth): schedules, Lovelace card, pellet and ignition tracking — [one-click ESP32 firmware](https://akoonet-homeassistant.github.io/edilkamin_control/webflash/) | HACS custom repository (default inclusion pending) |
 
 ### Install with HACS
 
+**Calypshome-ha**, **volets_intelligents** and **Lights Simulator** are part of the **HACS default** repositories: no custom repository needed.
+
 1. Open **HACS** in Home Assistant.
-2. **⋮** menu → **Custom repositories**.
-3. Paste the repository URL, choose the **Integration** category, then **Add**.
-4. Search for the integration in HACS and click **Download**.
-5. **Restart** Home Assistant.
-6. Go to **Settings → Devices & services → Add integration** and select it.
+2. Search for the integration by name and click **Download**.
+3. **Restart** Home Assistant.
+4. Go to **Settings → Devices & services → Add integration** and select it.
+
+For **Edilkamin Control**, until it is included in HACS default, first add the repository: **⋮** menu → **Custom repositories** → paste the repository URL, **Integration** category, then **Add**. Then follow the steps above.
 
 ### Support & contributions
 
