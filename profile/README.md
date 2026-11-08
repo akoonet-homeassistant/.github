@@ -42,12 +42,15 @@ Plus d'informations sur mes activités : **[www.akoonet.com](https://www.akoonet
 | [**volets_intelligents**](https://github.com/akoonet-homeassistant/volets_intelligents) | Gestion intelligente des volets (automatisations, panneau de configuration dédié) | ✅ HACS par défaut |
 | [**Lights Simulator**](https://github.com/akoonet-homeassistant/lights_simulator) | Simulateur de présence par les lumières, pour rendre la maison « vivante » en votre absence | ✅ HACS par défaut |
 | [**Edilkamin Control**](https://github.com/akoonet-homeassistant/edilkamin_control) | Programmation et pilotage d'un poêle à granulés **Edilkamin** via un ESP32 (MQTT / Bluetooth) : programmations, carte Lovelace, suivi des granulés et des allumages | ✅ HACS par défaut + [firmware ESP32 en un clic](https://akoonet-homeassistant.github.io/edilkamin_control/webflash/) |
+| [**Domogotchi**](https://github.com/akoonet-homeassistant/domogotchi) | Créature-maison façon **Tamagotchi** : elle a faim, joue, grandit et réagit à la vraie maison (lumières, température, présence, consommation, météo), avec sa carte Lovelace sur écran LCD rétro | ⏳ Inclusion HACS par défaut en cours — dépôt personnalisé en attendant |
 
 ---
 
 ## 🚀 Installation via HACS
 
-Toutes mes intégrations font partie des dépôts **HACS par défaut** : aucun dépôt personnalisé à ajouter.
+Mes intégrations font partie des dépôts **HACS par défaut** : aucun dépôt personnalisé à ajouter.
+
+> ⏳ **Domogotchi** est en cours d'inclusion. En attendant : **HACS → ⋮ → Dépôts personnalisés**, ajouter `https://github.com/akoonet-homeassistant/domogotchi` en catégorie **Intégration**.
 
 1. Ouvrir **HACS** dans Home Assistant.
 2. Rechercher l'intégration par son nom, cliquer sur **Télécharger**.
@@ -62,7 +65,7 @@ Pour **Edilkamin Control**, l'ESP32 qui dialogue avec le poêle s'installe en un
 
 - Une installation **Home Assistant** récente (Core, OS, Container ou Supervised).
 - **HACS** installé et configuré.
-- Selon l'intégration : le matériel correspondant (volets, lumières, passerelle, ESP32 pour le poêle Edilkamin, etc.).
+- Selon l'intégration : le matériel correspondant (volets, lumières, passerelle, ESP32 pour le poêle Edilkamin, etc.). Domogotchi n'en demande aucun.
 
 Chaque dépôt précise sa version minimale de Home Assistant dans son README.
 
@@ -118,10 +121,13 @@ I build **custom integrations for Home Assistant**, installable through **HACS**
 | [**volets_intelligents**](https://github.com/akoonet-homeassistant/volets_intelligents) | Smart shutter management with a dedicated configuration panel | ✅ HACS default |
 | [**Lights Simulator**](https://github.com/akoonet-homeassistant/lights_simulator) | Presence simulator using your lights while you are away | ✅ HACS default |
 | [**Edilkamin Control**](https://github.com/akoonet-homeassistant/edilkamin_control) | Scheduling and control of an **Edilkamin** pellet stove through an ESP32 (MQTT / Bluetooth): schedules, Lovelace card, pellet and ignition tracking — [one-click ESP32 firmware](https://akoonet-homeassistant.github.io/edilkamin_control/webflash/) | ✅ HACS default |
+| [**Domogotchi**](https://github.com/akoonet-homeassistant/domogotchi) | **Tamagotchi**-style house creature: it gets hungry, plays, grows up and reacts to your real home (lights, temperature, presence, power use, weather), with its retro LCD Lovelace card | ⏳ HACS default inclusion pending — custom repository meanwhile |
 
 ### Install with HACS
 
-All my integrations are part of the **HACS default** repositories: no custom repository needed.
+My integrations are part of the **HACS default** repositories: no custom repository needed.
+
+> ⏳ **Domogotchi** inclusion is pending. Meanwhile: **HACS → ⋮ → Custom repositories**, add `https://github.com/akoonet-homeassistant/domogotchi` as **Integration**.
 
 1. Open **HACS** in Home Assistant.
 2. Search for the integration by name and click **Download**.
