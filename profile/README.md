@@ -28,7 +28,6 @@ Ma philosophie :
 - 🎯 **Fiabilité d'abord** : des comportements prévisibles, testés et documentés.
 - 🖥️ **Tout dans l'interface** : configuration via l'UI, sans édition manuelle de YAML quand c'est possible.
 - 📖 **Documentation claire** : README en français, version anglaise, captures d'écran et liste des entités.
-- 🔬 **Honnêteté technique** : pas de formules inventées, je distingue ce qui est validé de ce qui ne l'est pas.
 
 Plus d'informations sur mes activités : **[www.akoonet.com](https://www.akoonet.com)**
 
