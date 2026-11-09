@@ -2,9 +2,9 @@
 
 # 🏠 Akoonet – Home Assistant
 
-**Intégrations personnalisées pour Home Assistant, installables via HACS**
+**Intégrations personnalisées pour Home Assistant, installables via HACS / Marketplace**
 
-[![HACS](https://img.shields.io/badge/HACS-Default-41BDF5.svg)](https://hacs.xyz)
+[![HACS / Marketplace](https://img.shields.io/badge/HACS%20%2F%20Marketplace-Default-41BDF5.svg)](https://hacs.xyz)
 [![Home Assistant](https://img.shields.io/badge/Home%20Assistant-compatible-41BDF5.svg)](https://www.home-assistant.io)
 [![Site web](https://img.shields.io/badge/site-akoonet.com-blue.svg)](https://www.akoonet.com)
 [![Licence](https://img.shields.io/badge/licence-open%20source-green.svg)](#-licence)
@@ -21,7 +21,7 @@
 
 Bienvenue sur la page **Akoonet – Home Assistant**.
 
-Je développe des intégrations pour **Home Assistant** avec une approche rigoureuse : des composants propres, documentés, configurables depuis l'interface graphique, et faciles à installer grâce à **HACS**.
+Je développe des intégrations pour **Home Assistant** avec une approche rigoureuse : des composants propres, documentés, configurables depuis l'interface graphique, et faciles à installer grâce à **HACS / Marketplace**.
 
 Ma philosophie :
 
@@ -38,21 +38,19 @@ Plus d'informations sur mes activités : **[www.akoonet.com](https://www.akoonet
 
 | Projet | Description | Installation |
 |--------|-------------|--------------|
-| [**Calypshome-ha**](https://github.com/akoonet-homeassistant/Calypshome-ha) | Intégration des volets **Calyps'HOME / Avidsen** dans Home Assistant | ✅ HACS par défaut |
-| [**volets_intelligents**](https://github.com/akoonet-homeassistant/volets_intelligents) | Gestion intelligente des volets (automatisations, panneau de configuration dédié) | ✅ HACS par défaut |
-| [**Lights Simulator**](https://github.com/akoonet-homeassistant/lights_simulator) | Simulateur de présence par les lumières, pour rendre la maison « vivante » en votre absence | ✅ HACS par défaut |
-| [**Edilkamin Control**](https://github.com/akoonet-homeassistant/edilkamin_control) | Programmation et pilotage d'un poêle à granulés **Edilkamin** via un ESP32 (MQTT / Bluetooth) : programmations, carte Lovelace, suivi des granulés et des allumages | ✅ HACS par défaut + [firmware ESP32 en un clic](https://akoonet-homeassistant.github.io/edilkamin_control/webflash/) |
-| [**Domogotchi**](https://github.com/akoonet-homeassistant/domogotchi) | Créature-maison façon **Tamagotchi** : elle a faim, joue, grandit et réagit à la vraie maison (lumières, température, présence, consommation, météo), avec sa carte Lovelace sur écran LCD rétro | ⏳ Inclusion HACS par défaut en cours — dépôt personnalisé en attendant |
+| [**Calypshome-ha**](https://github.com/akoonet-homeassistant/Calypshome-ha) | Intégration des volets **Calyps'HOME / Avidsen** dans Home Assistant | ✅ HACS / Marketplace par défaut |
+| [**volets_intelligents**](https://github.com/akoonet-homeassistant/volets_intelligents) | Gestion intelligente des volets (automatisations, panneau de configuration dédié) | ✅ HACS / Marketplace par défaut |
+| [**Lights Simulator**](https://github.com/akoonet-homeassistant/lights_simulator) | Simulateur de présence par les lumières, pour rendre la maison « vivante » en votre absence | ✅ HACS / Marketplace par défaut |
+| [**Edilkamin Control**](https://github.com/akoonet-homeassistant/edilkamin_control) | Programmation et pilotage d'un poêle à granulés **Edilkamin** via un ESP32 (MQTT / Bluetooth) : programmations, carte Lovelace, suivi des granulés et des allumages | ✅ HACS / Marketplace par défaut + [firmware ESP32 en un clic](https://akoonet-homeassistant.github.io/edilkamin_control/webflash/) |
+| [**Domogotchi**](https://github.com/akoonet-homeassistant/domogotchi) | Créature-maison façon **Tamagotchi** : elle a faim, joue, grandit et réagit à la vraie maison (lumières, température, présence, consommation, météo), avec sa carte Lovelace sur écran LCD rétro | ✅ HACS / Marketplace par défaut |
 
 ---
 
-## 🚀 Installation via HACS
+## 🚀 Installation via HACS / Marketplace
 
-Mes intégrations font partie des dépôts **HACS par défaut** : aucun dépôt personnalisé à ajouter.
+Toutes mes intégrations font partie des dépôts **HACS / Marketplace par défaut** : aucun dépôt personnalisé à ajouter.
 
-> ⏳ **Domogotchi** est en cours d'inclusion. En attendant : **HACS → ⋮ → Dépôts personnalisés**, ajouter `https://github.com/akoonet-homeassistant/domogotchi` en catégorie **Intégration**.
-
-1. Ouvrir **HACS** dans Home Assistant.
+1. Ouvrir **HACS / Marketplace** dans Home Assistant.
 2. Rechercher l'intégration par son nom, cliquer sur **Télécharger**.
 3. **Redémarrer** Home Assistant.
 4. Aller dans **Paramètres → Appareils et services → Ajouter une intégration** et sélectionner l'intégration.
@@ -64,7 +62,7 @@ Pour **Edilkamin Control**, l'ESP32 qui dialogue avec le poêle s'installe en un
 ## 🧰 Prérequis
 
 - Une installation **Home Assistant** récente (Core, OS, Container ou Supervised).
-- **HACS** installé et configuré.
+- **HACS / Marketplace** installé et configuré.
 - Selon l'intégration : le matériel correspondant (volets, lumières, passerelle, ESP32 pour le poêle Edilkamin, etc.). Domogotchi n'en demande aucun.
 
 Chaque dépôt précise sa version minimale de Home Assistant dans son README.
@@ -111,25 +109,23 @@ Sauf mention contraire dans le dépôt concerné, mes projets sont publiés sous
 
 Welcome to the **Akoonet – Home Assistant** page.
 
-I build **custom integrations for Home Assistant**, installable through **HACS**, with a focus on reliability, UI-based configuration and clear documentation.
+I build **custom integrations for Home Assistant**, installable through **HACS / Marketplace**, with a focus on reliability, UI-based configuration and clear documentation.
 
 ### Projects
 
 | Project | Description | Installation |
 |---------|-------------|--------------|
-| [**Calypshome-ha**](https://github.com/akoonet-homeassistant/Calypshome-ha) | Integration for **Calyps'HOME / Avidsen** shutters | ✅ HACS default |
-| [**volets_intelligents**](https://github.com/akoonet-homeassistant/volets_intelligents) | Smart shutter management with a dedicated configuration panel | ✅ HACS default |
-| [**Lights Simulator**](https://github.com/akoonet-homeassistant/lights_simulator) | Presence simulator using your lights while you are away | ✅ HACS default |
-| [**Edilkamin Control**](https://github.com/akoonet-homeassistant/edilkamin_control) | Scheduling and control of an **Edilkamin** pellet stove through an ESP32 (MQTT / Bluetooth): schedules, Lovelace card, pellet and ignition tracking — [one-click ESP32 firmware](https://akoonet-homeassistant.github.io/edilkamin_control/webflash/) | ✅ HACS default |
-| [**Domogotchi**](https://github.com/akoonet-homeassistant/domogotchi) | **Tamagotchi**-style house creature: it gets hungry, plays, grows up and reacts to your real home (lights, temperature, presence, power use, weather), with its retro LCD Lovelace card | ⏳ HACS default inclusion pending — custom repository meanwhile |
+| [**Calypshome-ha**](https://github.com/akoonet-homeassistant/Calypshome-ha) | Integration for **Calyps'HOME / Avidsen** shutters | ✅ HACS / Marketplace default |
+| [**volets_intelligents**](https://github.com/akoonet-homeassistant/volets_intelligents) | Smart shutter management with a dedicated configuration panel | ✅ HACS / Marketplace default |
+| [**Lights Simulator**](https://github.com/akoonet-homeassistant/lights_simulator) | Presence simulator using your lights while you are away | ✅ HACS / Marketplace default |
+| [**Edilkamin Control**](https://github.com/akoonet-homeassistant/edilkamin_control) | Scheduling and control of an **Edilkamin** pellet stove through an ESP32 (MQTT / Bluetooth): schedules, Lovelace card, pellet and ignition tracking — [one-click ESP32 firmware](https://akoonet-homeassistant.github.io/edilkamin_control/webflash/) | ✅ HACS / Marketplace default |
+| [**Domogotchi**](https://github.com/akoonet-homeassistant/domogotchi) | **Tamagotchi**-style house creature: it gets hungry, plays, grows up and reacts to your real home (lights, temperature, presence, power use, weather), with its retro LCD Lovelace card | ✅ HACS / Marketplace default |
 
-### Install with HACS
+### Install with HACS / Marketplace
 
-My integrations are part of the **HACS default** repositories: no custom repository needed.
+All my integrations are part of the **HACS / Marketplace default** repositories: no custom repository needed.
 
-> ⏳ **Domogotchi** inclusion is pending. Meanwhile: **HACS → ⋮ → Custom repositories**, add `https://github.com/akoonet-homeassistant/domogotchi` as **Integration**.
-
-1. Open **HACS** in Home Assistant.
+1. Open **HACS / Marketplace** in Home Assistant.
 2. Search for the integration by name and click **Download**.
 3. **Restart** Home Assistant.
 4. Go to **Settings → Devices & services → Add integration** and select it.
