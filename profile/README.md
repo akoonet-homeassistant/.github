@@ -2,9 +2,10 @@
 
 # 🏠 Projets Home Assistant
 
-**Intégrations et cartes Lovelace par Akoonet — toutes sur HACS / Marketplace**
+**Intégrations et cartes Lovelace par Akoonet — toutes installables via HACS / Marketplace**
 
-[![HACS / Marketplace](https://img.shields.io/badge/HACS%20%2F%20Marketplace-Default-41BDF5.svg)](https://hacs.xyz)
+[![HACS Default](https://img.shields.io/badge/HACS%20Default-5-41BDF5.svg)](https://hacs.xyz)
+[![HACS Custom](https://img.shields.io/badge/HACS%20Custom-1-orange.svg)](https://hacs.xyz/docs/faq/custom_repositories/)
 [![Intégrations](https://img.shields.io/badge/int%C3%A9grations-6-41BDF5.svg)](#-mes-projets)
 [![Cartes Lovelace](https://img.shields.io/badge/cartes%20Lovelace-5-41BDF5.svg)](#-mes-projets)
 [![Documentation](https://img.shields.io/badge/documentation-FR%20%C2%B7%20EN-41BDF5.svg)](#-english)
@@ -33,7 +34,7 @@ Des intégrations configurables depuis l'interface, documentées en français et
 <br clear="left">
 <p align="center"><img src="https://raw.githubusercontent.com/akoonet-homeassistant/volets_intelligents/main/docs/screenshots/carte-facades.png" alt="Carte Volets Intelligents" height="240"></p>
 <p>Protège la maison de la chaleur en pilotant les volets selon le soleil, les températures et l'activité des habitants, avec un panneau de gestion graphique. Aucun YAML à écrire.</p>
-<p><a href="https://my.home-assistant.io/redirect/hacs_repository/?owner=akoonet-homeassistant&amp;repository=volets_intelligents&amp;category=integration"><img src="https://my.home-assistant.io/badges/hacs_repository.svg" alt="Ouvrir dans HACS / Marketplace"></a> <img src="https://img.shields.io/github/v/release/akoonet-homeassistant/volets_intelligents?label=version&amp;color=41BDF5" alt="Version"></p>
+<p><img src="https://img.shields.io/badge/HACS-Default-41BDF5.svg" alt="HACS Default"> <a href="https://my.home-assistant.io/redirect/hacs_repository/?owner=akoonet-homeassistant&amp;repository=volets_intelligents&amp;category=integration"><img src="https://my.home-assistant.io/badges/hacs_repository.svg" alt="Ouvrir dans HACS / Marketplace"></a> <img src="https://img.shields.io/github/v/release/akoonet-homeassistant/volets_intelligents?label=version&amp;color=41BDF5" alt="Version"></p>
 </td>
 <td width="50%" valign="top">
 <img src="https://raw.githubusercontent.com/akoonet-homeassistant/Calypshome-ha/main/custom_components/calypshome/brand/icon.png" width="48" height="48" align="left" alt="">
@@ -42,7 +43,7 @@ Des intégrations configurables depuis l'interface, documentées en français et
 <br clear="left">
 <p align="center"><img src="https://raw.githubusercontent.com/akoonet-homeassistant/Calypshome-ha/main/images/device-detail.png" alt="Appareil Calyps'HOME" height="240"></p>
 <p>Pilote les volets roulants <b>Profalux Neosol 868</b> via le cloud Calyps'HOME / Avidsen, avec les identifiants de l'application mobile. La position est estimée par minuterie. Fonctionne avec Volets Intelligents.</p>
-<p><a href="https://my.home-assistant.io/redirect/hacs_repository/?owner=akoonet-homeassistant&amp;repository=Calypshome-ha&amp;category=integration"><img src="https://my.home-assistant.io/badges/hacs_repository.svg" alt="Ouvrir dans HACS / Marketplace"></a> <img src="https://img.shields.io/github/v/release/akoonet-homeassistant/Calypshome-ha?label=version&amp;color=41BDF5" alt="Version"></p>
+<p><img src="https://img.shields.io/badge/HACS-Default-41BDF5.svg" alt="HACS Default"> <a href="https://my.home-assistant.io/redirect/hacs_repository/?owner=akoonet-homeassistant&amp;repository=Calypshome-ha&amp;category=integration"><img src="https://my.home-assistant.io/badges/hacs_repository.svg" alt="Ouvrir dans HACS / Marketplace"></a> <img src="https://img.shields.io/github/v/release/akoonet-homeassistant/Calypshome-ha?label=version&amp;color=41BDF5" alt="Version"></p>
 </td>
 </tr>
 </table>
@@ -58,7 +59,7 @@ Des intégrations configurables depuis l'interface, documentées en français et
 <br clear="left">
 <p align="center"><img src="https://raw.githubusercontent.com/akoonet-homeassistant/lights_simulator/main/docs/screenshots/carte.png" alt="Carte Lights Simulator" height="240"></p>
 <p>Simulation de présence : quand la maison est vide, allume et éteint vos lampes au hasard le soir et le matin. Déclenchement par l'alarme ou par l'absence des personnes.</p>
-<p><a href="https://my.home-assistant.io/redirect/hacs_repository/?owner=akoonet-homeassistant&amp;repository=lights_simulator&amp;category=integration"><img src="https://my.home-assistant.io/badges/hacs_repository.svg" alt="Ouvrir dans HACS / Marketplace"></a> <img src="https://img.shields.io/github/v/release/akoonet-homeassistant/lights_simulator?label=version&amp;color=41BDF5" alt="Version"></p>
+<p><img src="https://img.shields.io/badge/HACS-Default-41BDF5.svg" alt="HACS Default"> <a href="https://my.home-assistant.io/redirect/hacs_repository/?owner=akoonet-homeassistant&amp;repository=lights_simulator&amp;category=integration"><img src="https://my.home-assistant.io/badges/hacs_repository.svg" alt="Ouvrir dans HACS / Marketplace"></a> <img src="https://img.shields.io/github/v/release/akoonet-homeassistant/lights_simulator?label=version&amp;color=41BDF5" alt="Version"></p>
 </td>
 <td width="50%" valign="top">
 <img src="https://raw.githubusercontent.com/akoonet-homeassistant/edilkamin_control/main/custom_components/edilkamin_control/brand/icon.png" width="48" height="48" align="left" alt="">
@@ -67,7 +68,7 @@ Des intégrations configurables depuis l'interface, documentées en français et
 <br clear="left">
 <p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/akoonet-homeassistant/edilkamin_control/main/docs/screenshots/carte_sombre.png"><img src="https://raw.githubusercontent.com/akoonet-homeassistant/edilkamin_control/main/docs/screenshots/carte.png" alt="Carte Edilkamin Control" height="240"></picture></p>
 <p>Programmation et pilotage d'un poêle à granulés <b>Edilkamin</b> commandé par un ESP32 en Bluetooth / MQTT, avec planning de secours si Home Assistant s'arrête. <a href="https://akoonet-homeassistant.github.io/edilkamin_control/webflash/">Firmware ESP32 en un clic</a>.</p>
-<p><a href="https://my.home-assistant.io/redirect/hacs_repository/?owner=akoonet-homeassistant&amp;repository=edilkamin_control&amp;category=integration"><img src="https://my.home-assistant.io/badges/hacs_repository.svg" alt="Ouvrir dans HACS / Marketplace"></a> <img src="https://img.shields.io/github/v/release/akoonet-homeassistant/edilkamin_control?label=version&amp;color=41BDF5" alt="Version"></p>
+<p><img src="https://img.shields.io/badge/HACS-Default-41BDF5.svg" alt="HACS Default"> <a href="https://my.home-assistant.io/redirect/hacs_repository/?owner=akoonet-homeassistant&amp;repository=edilkamin_control&amp;category=integration"><img src="https://my.home-assistant.io/badges/hacs_repository.svg" alt="Ouvrir dans HACS / Marketplace"></a> <img src="https://img.shields.io/github/v/release/akoonet-homeassistant/edilkamin_control?label=version&amp;color=41BDF5" alt="Version"></p>
 </td>
 </tr>
 </table>
@@ -83,7 +84,7 @@ Des intégrations configurables depuis l'interface, documentées en français et
 <br clear="left">
 <p align="center"><img src="https://raw.githubusercontent.com/akoonet-homeassistant/protocole_alarme/main/docs/screenshots/carte.png" alt="Carte Protocole Alarme" height="240"></p>
 <p>Lance des actions à l'armement et au désarmement de l'alarme, entité par entité : fermer un volet si une fenêtre est ouverte, fermer le garage, éteindre les lumières, démarrer la simulation de présence, déclencher l'alarme en cas d'intrusion. Assistant en 3 étapes, vérification du résultat, carte pour armer / désarmer.</p>
-<p><a href="https://my.home-assistant.io/redirect/hacs_repository/?owner=akoonet-homeassistant&amp;repository=protocole_alarme&amp;category=integration"><img src="https://my.home-assistant.io/badges/hacs_repository.svg" alt="Ouvrir dans HACS / Marketplace"></a> <img src="https://img.shields.io/github/v/release/akoonet-homeassistant/protocole_alarme?label=version&amp;color=41BDF5" alt="Version"></p>
+<p><img src="https://img.shields.io/badge/HACS-Custom-orange.svg" alt="HACS Custom"> <a href="https://my.home-assistant.io/redirect/hacs_repository/?owner=akoonet-homeassistant&amp;repository=protocole_alarme&amp;category=integration"><img src="https://my.home-assistant.io/badges/hacs_repository.svg" alt="Ouvrir dans HACS / Marketplace"></a> <img src="https://img.shields.io/github/v/release/akoonet-homeassistant/protocole_alarme?label=version&amp;color=41BDF5" alt="Version"></p>
 </td>
 <td width="50%" valign="top">
 <img src="https://raw.githubusercontent.com/akoonet-homeassistant/domogotchi/main/custom_components/domogotchi/brand/icon.png" width="48" height="48" align="left" alt="">
@@ -92,7 +93,7 @@ Des intégrations configurables depuis l'interface, documentées en français et
 <br clear="left">
 <p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/akoonet-homeassistant/domogotchi/main/docs/screenshots/carte-sombre.png"><img src="https://raw.githubusercontent.com/akoonet-homeassistant/domogotchi/main/docs/screenshots/carte.png" alt="Carte Domogotchi" height="240"></picture></p>
 <p>Une créature-maison façon <b>Tamagotchi</b> sur écran LCD rétro : elle a faim, joue, grandit et réagit à la vraie maison (lumières, température, présence, consommation, météo).</p>
-<p><a href="https://my.home-assistant.io/redirect/hacs_repository/?owner=akoonet-homeassistant&amp;repository=domogotchi&amp;category=integration"><img src="https://my.home-assistant.io/badges/hacs_repository.svg" alt="Ouvrir dans HACS / Marketplace"></a> <img src="https://img.shields.io/github/v/release/akoonet-homeassistant/domogotchi?label=version&amp;color=41BDF5" alt="Version"></p>
+<p><img src="https://img.shields.io/badge/HACS-Default-41BDF5.svg" alt="HACS Default"> <a href="https://my.home-assistant.io/redirect/hacs_repository/?owner=akoonet-homeassistant&amp;repository=domogotchi&amp;category=integration"><img src="https://my.home-assistant.io/badges/hacs_repository.svg" alt="Ouvrir dans HACS / Marketplace"></a> <img src="https://img.shields.io/github/v/release/akoonet-homeassistant/domogotchi?label=version&amp;color=41BDF5" alt="Version"></p>
 </td>
 </tr>
 </table>
@@ -103,7 +104,10 @@ Des intégrations configurables depuis l'interface, documentées en français et
 
 ## 🚀 Installation via HACS / Marketplace
 
-Toutes mes intégrations font partie des dépôts **HACS / Marketplace par défaut** : aucun dépôt personnalisé à ajouter.
+Chaque projet porte un badge :
+
+- ![HACS Default](https://img.shields.io/badge/HACS-Default-41BDF5.svg) — présent dans les dépôts **HACS / Marketplace par défaut** : il suffit de le rechercher par son nom.
+- ![HACS Custom](https://img.shields.io/badge/HACS-Custom-orange.svg) — pas encore dans la liste par défaut : le bouton **Ouvrir dans HACS / Marketplace** propose de l'ajouter comme **dépôt personnalisé** (catégorie *Intégration*), en un clic.
 
 1. Cliquez sur le bouton **Ouvrir dans HACS / Marketplace** du projet, ou recherchez-le par son nom dans **HACS / Marketplace**.
 2. Cliquez sur **Télécharger**, puis **redémarrez** Home Assistant.
@@ -167,22 +171,22 @@ Sauf mention contraire dans le dépôt concerné, mes projets sont publiés sous
 
 ## 🇬🇧 English
 
-**Integrations and Lovelace cards by Akoonet — all on HACS / Marketplace.** Configured from the UI, documented in French and English, tested before every release. 🌐 **Website: [www.akoonet.com](https://www.akoonet.com)**
+**Integrations and Lovelace cards by Akoonet — all installable through HACS / Marketplace.** Configured from the UI, documented in French and English, tested before every release. 🌐 **Website: [www.akoonet.com](https://www.akoonet.com)**
 
 ### Projects
 
 | | Project | Description | Install |
 |---|---|---|---|
-| <img src="https://raw.githubusercontent.com/akoonet-homeassistant/volets_intelligents/main/custom_components/volets_intelligents/brand/icon.png" width="32" alt=""> | [**Volets Intelligents**](https://github.com/akoonet-homeassistant/volets_intelligents)<br><sub>Integration + card · HA 2026.3.0+</sub> | Smart shutter management from the sun, temperatures and occupants' activity, with a graphical management panel. No YAML to write. | [Open in HACS / Marketplace](https://my.home-assistant.io/redirect/hacs_repository/?owner=akoonet-homeassistant&repository=volets_intelligents&category=integration) |
-| <img src="https://raw.githubusercontent.com/akoonet-homeassistant/Calypshome-ha/main/custom_components/calypshome/brand/icon.png" width="32" alt=""> | [**Calyps'HOME (Avidsen Cloud)**](https://github.com/akoonet-homeassistant/Calypshome-ha)<br><sub>Integration · HA 2024.11.0+</sub> | Controls **Profalux Neosol 868** roller shutters through the Calyps'HOME / Avidsen cloud. Works with Volets Intelligents. | [Open in HACS / Marketplace](https://my.home-assistant.io/redirect/hacs_repository/?owner=akoonet-homeassistant&repository=Calypshome-ha&category=integration) |
-| <img src="https://raw.githubusercontent.com/akoonet-homeassistant/lights_simulator/main/custom_components/lights_simulator/brand/icon.png" width="32" alt=""> | [**Lights Simulator**](https://github.com/akoonet-homeassistant/lights_simulator)<br><sub>Integration + card · HA 2024.12.0+</sub> | Presence simulation: randomly switches your lamps on and off while the house is empty. | [Open in HACS / Marketplace](https://my.home-assistant.io/redirect/hacs_repository/?owner=akoonet-homeassistant&repository=lights_simulator&category=integration) |
-| <img src="https://raw.githubusercontent.com/akoonet-homeassistant/edilkamin_control/main/custom_components/edilkamin_control/brand/icon.png" width="32" alt=""> | [**Edilkamin Control**](https://github.com/akoonet-homeassistant/edilkamin_control)<br><sub>Integration + card · HA 2024.11.0+</sub> | Scheduling and control of an **Edilkamin** pellet stove through an ESP32 (Bluetooth / MQTT) — [one-click ESP32 firmware](https://akoonet-homeassistant.github.io/edilkamin_control/webflash/). | [Open in HACS / Marketplace](https://my.home-assistant.io/redirect/hacs_repository/?owner=akoonet-homeassistant&repository=edilkamin_control&category=integration) |
-| <img src="https://raw.githubusercontent.com/akoonet-homeassistant/protocole_alarme/main/custom_components/protocole_alarme/brand/icon.png" width="32" alt=""> | [**Protocole Alarme**](https://github.com/akoonet-homeassistant/protocole_alarme)<br><sub>Integration + card · HA 2024.12.0+</sub> | Runs actions when the alarm is armed or disarmed, entity by entity: close a shutter if a window is open, close the garage, turn lights off, start presence simulation, trigger the alarm on intrusion. 3-step wizard, result check, card to arm / disarm. | [Open in HACS / Marketplace](https://my.home-assistant.io/redirect/hacs_repository/?owner=akoonet-homeassistant&repository=protocole_alarme&category=integration) |
-| <img src="https://raw.githubusercontent.com/akoonet-homeassistant/domogotchi/main/custom_components/domogotchi/brand/icon.png" width="32" alt=""> | [**Domogotchi**](https://github.com/akoonet-homeassistant/domogotchi)<br><sub>Integration + card · HA 2025.1.0+</sub> | **Tamagotchi**-style house creature on a retro LCD screen that reacts to your real home. | [Open in HACS / Marketplace](https://my.home-assistant.io/redirect/hacs_repository/?owner=akoonet-homeassistant&repository=domogotchi&category=integration) |
+| <img src="https://raw.githubusercontent.com/akoonet-homeassistant/volets_intelligents/main/custom_components/volets_intelligents/brand/icon.png" width="32" alt=""> | [**Volets Intelligents**](https://github.com/akoonet-homeassistant/volets_intelligents)<br><sub>Integration + card · HA 2026.3.0+</sub> | Smart shutter management from the sun, temperatures and occupants' activity, with a graphical management panel. No YAML to write. | ![HACS Default](https://img.shields.io/badge/HACS-Default-41BDF5.svg)<br>[Open in HACS / Marketplace](https://my.home-assistant.io/redirect/hacs_repository/?owner=akoonet-homeassistant&repository=volets_intelligents&category=integration) |
+| <img src="https://raw.githubusercontent.com/akoonet-homeassistant/Calypshome-ha/main/custom_components/calypshome/brand/icon.png" width="32" alt=""> | [**Calyps'HOME (Avidsen Cloud)**](https://github.com/akoonet-homeassistant/Calypshome-ha)<br><sub>Integration · HA 2024.11.0+</sub> | Controls **Profalux Neosol 868** roller shutters through the Calyps'HOME / Avidsen cloud. Works with Volets Intelligents. | ![HACS Default](https://img.shields.io/badge/HACS-Default-41BDF5.svg)<br>[Open in HACS / Marketplace](https://my.home-assistant.io/redirect/hacs_repository/?owner=akoonet-homeassistant&repository=Calypshome-ha&category=integration) |
+| <img src="https://raw.githubusercontent.com/akoonet-homeassistant/lights_simulator/main/custom_components/lights_simulator/brand/icon.png" width="32" alt=""> | [**Lights Simulator**](https://github.com/akoonet-homeassistant/lights_simulator)<br><sub>Integration + card · HA 2024.12.0+</sub> | Presence simulation: randomly switches your lamps on and off while the house is empty. | ![HACS Default](https://img.shields.io/badge/HACS-Default-41BDF5.svg)<br>[Open in HACS / Marketplace](https://my.home-assistant.io/redirect/hacs_repository/?owner=akoonet-homeassistant&repository=lights_simulator&category=integration) |
+| <img src="https://raw.githubusercontent.com/akoonet-homeassistant/edilkamin_control/main/custom_components/edilkamin_control/brand/icon.png" width="32" alt=""> | [**Edilkamin Control**](https://github.com/akoonet-homeassistant/edilkamin_control)<br><sub>Integration + card · HA 2024.11.0+</sub> | Scheduling and control of an **Edilkamin** pellet stove through an ESP32 (Bluetooth / MQTT) — [one-click ESP32 firmware](https://akoonet-homeassistant.github.io/edilkamin_control/webflash/). | ![HACS Default](https://img.shields.io/badge/HACS-Default-41BDF5.svg)<br>[Open in HACS / Marketplace](https://my.home-assistant.io/redirect/hacs_repository/?owner=akoonet-homeassistant&repository=edilkamin_control&category=integration) |
+| <img src="https://raw.githubusercontent.com/akoonet-homeassistant/protocole_alarme/main/custom_components/protocole_alarme/brand/icon.png" width="32" alt=""> | [**Protocole Alarme**](https://github.com/akoonet-homeassistant/protocole_alarme)<br><sub>Integration + card · HA 2024.12.0+</sub> | Runs actions when the alarm is armed or disarmed, entity by entity: close a shutter if a window is open, close the garage, turn lights off, start presence simulation, trigger the alarm on intrusion. 3-step wizard, result check, card to arm / disarm. | ![HACS Custom](https://img.shields.io/badge/HACS-Custom-orange.svg)<br>[Open in HACS / Marketplace](https://my.home-assistant.io/redirect/hacs_repository/?owner=akoonet-homeassistant&repository=protocole_alarme&category=integration) |
+| <img src="https://raw.githubusercontent.com/akoonet-homeassistant/domogotchi/main/custom_components/domogotchi/brand/icon.png" width="32" alt=""> | [**Domogotchi**](https://github.com/akoonet-homeassistant/domogotchi)<br><sub>Integration + card · HA 2025.1.0+</sub> | **Tamagotchi**-style house creature on a retro LCD screen that reacts to your real home. | ![HACS Default](https://img.shields.io/badge/HACS-Default-41BDF5.svg)<br>[Open in HACS / Marketplace](https://my.home-assistant.io/redirect/hacs_repository/?owner=akoonet-homeassistant&repository=domogotchi&category=integration) |
 
 ### Install with HACS / Marketplace
 
-All my integrations are part of the **HACS / Marketplace default** repositories: no custom repository needed. Click **Open in HACS / Marketplace** (or search the name in **HACS / Marketplace**), click **Download**, **restart** Home Assistant, then go to **Settings → Devices & services → Add integration**.
+![HACS Default](https://img.shields.io/badge/HACS-Default-41BDF5.svg) projects are in the **HACS / Marketplace default** repositories. ![HACS Custom](https://img.shields.io/badge/HACS-Custom-orange.svg) projects are not in the default list yet: the **Open in HACS / Marketplace** button offers to add them as a **custom repository** (category *Integration*). Click **Open in HACS / Marketplace** (or search the name in **HACS / Marketplace**), click **Download**, **restart** Home Assistant, then go to **Settings → Devices & services → Add integration**.
 
 ### Support & contributions
 
