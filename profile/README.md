@@ -5,9 +5,9 @@
 **Intégrations et cartes Lovelace par Akoonet — toutes installables via HACS / Marketplace**
 
 [![HACS Default](https://img.shields.io/badge/HACS%20Default-5-41BDF5.svg)](https://hacs.xyz)
-[![HACS Custom](https://img.shields.io/badge/HACS%20Custom-1-orange.svg)](https://hacs.xyz/docs/faq/custom_repositories/)
+[![HACS Custom](https://img.shields.io/badge/HACS%20Custom-2-orange.svg)](https://hacs.xyz/docs/faq/custom_repositories/)
 [![Intégrations](https://img.shields.io/badge/int%C3%A9grations-6-41BDF5.svg)](#-mes-projets)
-[![Cartes Lovelace](https://img.shields.io/badge/cartes%20Lovelace-5-41BDF5.svg)](#-mes-projets)
+[![Cartes Lovelace](https://img.shields.io/badge/cartes%20Lovelace-6-41BDF5.svg)](#-mes-projets)
 [![Documentation](https://img.shields.io/badge/documentation-FR%20%C2%B7%20EN-41BDF5.svg)](#-english)
 [![Site web](https://img.shields.io/badge/site-akoonet.com-blue.svg)](https://www.akoonet.com)
 
@@ -15,7 +15,7 @@
 
 </div>
 
-Des intégrations configurables depuis l'interface, documentées en français et en anglais, testées avant chaque version. Volets, éclairage, chauffage, alarme… et une créature-maison à faire vivre.
+Des intégrations configurables depuis l'interface, documentées en français et en anglais, testées avant chaque version. Volets, éclairage, chauffage, alarme, carburant… et une créature-maison à faire vivre.
 
 🌐 **Site web : [www.akoonet.com](https://www.akoonet.com)**
 
@@ -83,8 +83,8 @@ Des intégrations configurables depuis l'interface, documentées en français et
 <sub>Intégration + carte · HA 2024.12.0+</sub>
 <br clear="left">
 <p align="center"><img src="https://raw.githubusercontent.com/akoonet-homeassistant/protocole_alarme/main/docs/screenshots/carte.png" alt="Carte Protocole Alarme" height="240"></p>
-<p>Lance des actions à l'armement et au désarmement de l'alarme, entité par entité : fermer un volet si une fenêtre est ouverte, fermer le garage, éteindre les lumières, démarrer la simulation de présence, déclencher l'alarme en cas d'intrusion. Assistant en 3 étapes, vérification du résultat, carte pour armer / désarmer.</p>
-<p><img src="https://img.shields.io/badge/HACS-Custom-orange.svg" alt="HACS Custom"> <a href="https://my.home-assistant.io/redirect/hacs_repository/?owner=akoonet-homeassistant&amp;repository=protocole_alarme&amp;category=integration"><img src="https://my.home-assistant.io/badges/hacs_repository.svg" alt="Ouvrir dans HACS / Marketplace"></a> <img src="https://img.shields.io/github/v/release/akoonet-homeassistant/protocole_alarme?label=version&amp;color=41BDF5" alt="Version"></p>
+<p>Lance des actions à l'armement et au désarmement de l'alarme, entité par entité : fermer un volet si une fenêtre est ouverte, fermer le garage, éteindre les lumières, démarrer la simulation de présence, déclencher l'alarme en cas d'intrusion, et remettre l'état d'origine au désarmement. Assistant en 3 étapes, vérification du résultat, carte pour armer / désarmer.</p>
+<p><img src="https://img.shields.io/badge/HACS-Custom-orange.svg" alt="HACS Custom"> <img src="https://img.shields.io/badge/HACS%20Default-en%20cours-lightgrey.svg" alt="HACS Default en cours"> <a href="https://my.home-assistant.io/redirect/hacs_repository/?owner=akoonet-homeassistant&amp;repository=protocole_alarme&amp;category=integration"><img src="https://my.home-assistant.io/badges/hacs_repository.svg" alt="Ouvrir dans HACS / Marketplace"></a> <img src="https://img.shields.io/github/v/release/akoonet-homeassistant/protocole_alarme?label=version&amp;color=41BDF5" alt="Version"></p>
 </td>
 <td width="50%" valign="top">
 <img src="https://raw.githubusercontent.com/akoonet-homeassistant/domogotchi/main/custom_components/domogotchi/brand/icon.png" width="48" height="48" align="left" alt="">
@@ -98,7 +98,25 @@ Des intégrations configurables depuis l'interface, documentées en français et
 </tr>
 </table>
 
-<p align="center"><b>Une idée de projet ?</b> Proposez-la dans une <i>issue</i> sur l'un des dépôts.</p>
+### 🚗 Voiture
+
+<table>
+<tr>
+<td width="50%" valign="top">
+<img src="https://raw.githubusercontent.com/akoonet-homeassistant/Fuel-Map-Card/main/docs/icon.png" width="48" height="48" align="left" alt="">
+<b><a href="https://github.com/akoonet-homeassistant/Fuel-Map-Card">Fuel Map Card</a></b><br>
+<sub>Carte · HA 2024.1.0+ · 🇫🇷 France</sub>
+<br clear="left">
+<p align="center"><img src="https://raw.githubusercontent.com/akoonet-homeassistant/Fuel-Map-Card/main/docs/screenshots/card-fr.png" alt="Fuel Map Card" height="240"></p>
+<p>Les <b>stations-service autour de la voiture</b> sur une carte et dans une liste : prix, distance, date de mise à jour, la moins chère en vert. Un clic sur une station centre la carte dessus. Données de l'intégration <a href="https://github.com/Aohzan/hass-prixcarburant">Prix Carburant</a>.</p>
+<p><img src="https://img.shields.io/badge/HACS-Custom-orange.svg" alt="HACS Custom"> <a href="https://my.home-assistant.io/redirect/hacs_repository/?owner=akoonet-homeassistant&amp;repository=Fuel-Map-Card&amp;category=plugin"><img src="https://my.home-assistant.io/badges/hacs_repository.svg" alt="Ouvrir dans HACS / Marketplace"></a> <img src="https://img.shields.io/github/v/release/akoonet-homeassistant/Fuel-Map-Card?label=version&amp;color=41BDF5" alt="Version"></p>
+</td>
+<td width="50%" valign="middle" align="center">
+<p>💡</p>
+<p><b>Une idée de projet ?</b><br>Proposez-la dans une <i>issue</i> sur l'un des dépôts.</p>
+</td>
+</tr>
+</table>
 
 ---
 
@@ -107,13 +125,15 @@ Des intégrations configurables depuis l'interface, documentées en français et
 Chaque projet porte un badge :
 
 - ![HACS Default](https://img.shields.io/badge/HACS-Default-41BDF5.svg) — présent dans les dépôts **HACS / Marketplace par défaut** : il suffit de le rechercher par son nom.
-- ![HACS Custom](https://img.shields.io/badge/HACS-Custom-orange.svg) — pas encore dans la liste par défaut : le bouton **Ouvrir dans HACS / Marketplace** propose de l'ajouter comme **dépôt personnalisé** (catégorie *Intégration*), en un clic.
+- ![HACS Custom](https://img.shields.io/badge/HACS-Custom-orange.svg) — pas encore dans la liste par défaut : le bouton **Ouvrir dans HACS / Marketplace** propose de l'ajouter comme **dépôt personnalisé** (catégorie *Intégration*, ou *Tableau de bord* pour une carte), en un clic.
 
 1. Cliquez sur le bouton **Ouvrir dans HACS / Marketplace** du projet, ou recherchez-le par son nom dans **HACS / Marketplace**.
 2. Cliquez sur **Télécharger**, puis **redémarrez** Home Assistant.
-3. Allez dans **Paramètres → Appareils et services → Ajouter une intégration** et sélectionnez l'intégration.
+3. Allez dans **Paramètres → Appareils et services → Ajouter une intégration** et sélectionnez l'intégration. Pour une carte seule (Fuel Map Card), rien à faire : HACS déclare la ressource, ajoutez la carte au tableau de bord.
 
 Pour **Protocole Alarme**, ajoutez la carte au tableau de bord depuis **Ajouter une carte → Protocole Alarme** (aucune ressource à déclarer).
+
+Pour **Fuel Map Card**, installez d'abord l'intégration [Prix Carburant](https://github.com/Aohzan/hass-prixcarburant).
 
 Pour **Edilkamin Control**, l'ESP32 qui dialogue avec le poêle s'installe en un clic depuis la [page du firmware](https://akoonet-homeassistant.github.io/edilkamin_control/webflash/).
 
@@ -181,12 +201,13 @@ Sauf mention contraire dans le dépôt concerné, mes projets sont publiés sous
 | <img src="https://raw.githubusercontent.com/akoonet-homeassistant/Calypshome-ha/main/custom_components/calypshome/brand/icon.png" width="32" alt=""> | [**Calyps'HOME (Avidsen Cloud)**](https://github.com/akoonet-homeassistant/Calypshome-ha)<br><sub>Integration · HA 2024.11.0+</sub> | Controls **Profalux Neosol 868** roller shutters through the Calyps'HOME / Avidsen cloud. Works with Volets Intelligents. | ![HACS Default](https://img.shields.io/badge/HACS-Default-41BDF5.svg)<br>[Open in HACS / Marketplace](https://my.home-assistant.io/redirect/hacs_repository/?owner=akoonet-homeassistant&repository=Calypshome-ha&category=integration) |
 | <img src="https://raw.githubusercontent.com/akoonet-homeassistant/lights_simulator/main/custom_components/lights_simulator/brand/icon.png" width="32" alt=""> | [**Lights Simulator**](https://github.com/akoonet-homeassistant/lights_simulator)<br><sub>Integration + card · HA 2024.12.0+</sub> | Presence simulation: randomly switches your lamps on and off while the house is empty. | ![HACS Default](https://img.shields.io/badge/HACS-Default-41BDF5.svg)<br>[Open in HACS / Marketplace](https://my.home-assistant.io/redirect/hacs_repository/?owner=akoonet-homeassistant&repository=lights_simulator&category=integration) |
 | <img src="https://raw.githubusercontent.com/akoonet-homeassistant/edilkamin_control/main/custom_components/edilkamin_control/brand/icon.png" width="32" alt=""> | [**Edilkamin Control**](https://github.com/akoonet-homeassistant/edilkamin_control)<br><sub>Integration + card · HA 2024.11.0+</sub> | Scheduling and control of an **Edilkamin** pellet stove through an ESP32 (Bluetooth / MQTT) — [one-click ESP32 firmware](https://akoonet-homeassistant.github.io/edilkamin_control/webflash/). | ![HACS Default](https://img.shields.io/badge/HACS-Default-41BDF5.svg)<br>[Open in HACS / Marketplace](https://my.home-assistant.io/redirect/hacs_repository/?owner=akoonet-homeassistant&repository=edilkamin_control&category=integration) |
-| <img src="https://raw.githubusercontent.com/akoonet-homeassistant/protocole_alarme/main/custom_components/protocole_alarme/brand/icon.png" width="32" alt=""> | [**Protocole Alarme**](https://github.com/akoonet-homeassistant/protocole_alarme)<br><sub>Integration + card · HA 2024.12.0+</sub> | Runs actions when the alarm is armed or disarmed, entity by entity: close a shutter if a window is open, close the garage, turn lights off, start presence simulation, trigger the alarm on intrusion. 3-step wizard, result check, card to arm / disarm. | ![HACS Custom](https://img.shields.io/badge/HACS-Custom-orange.svg)<br>[Open in HACS / Marketplace](https://my.home-assistant.io/redirect/hacs_repository/?owner=akoonet-homeassistant&repository=protocole_alarme&category=integration) |
+| <img src="https://raw.githubusercontent.com/akoonet-homeassistant/protocole_alarme/main/custom_components/protocole_alarme/brand/icon.png" width="32" alt=""> | [**Protocole Alarme**](https://github.com/akoonet-homeassistant/protocole_alarme)<br><sub>Integration + card · HA 2024.12.0+</sub> | Runs actions when the alarm is armed or disarmed, entity by entity: close a shutter if a window is open, close the garage, turn lights off, start presence simulation, trigger the alarm on intrusion, and restore the original state on disarming. 3-step wizard, result check, card to arm / disarm. | ![HACS Custom](https://img.shields.io/badge/HACS-Custom-orange.svg) ![HACS Default pending](https://img.shields.io/badge/HACS%20Default-pending-lightgrey.svg)<br>[Open in HACS / Marketplace](https://my.home-assistant.io/redirect/hacs_repository/?owner=akoonet-homeassistant&repository=protocole_alarme&category=integration) |
 | <img src="https://raw.githubusercontent.com/akoonet-homeassistant/domogotchi/main/custom_components/domogotchi/brand/icon.png" width="32" alt=""> | [**Domogotchi**](https://github.com/akoonet-homeassistant/domogotchi)<br><sub>Integration + card · HA 2025.1.0+</sub> | **Tamagotchi**-style house creature on a retro LCD screen that reacts to your real home. | ![HACS Default](https://img.shields.io/badge/HACS-Default-41BDF5.svg)<br>[Open in HACS / Marketplace](https://my.home-assistant.io/redirect/hacs_repository/?owner=akoonet-homeassistant&repository=domogotchi&category=integration) |
+| <img src="https://raw.githubusercontent.com/akoonet-homeassistant/Fuel-Map-Card/main/docs/icon.png" width="32" alt=""> | [**Fuel Map Card**](https://github.com/akoonet-homeassistant/Fuel-Map-Card)<br><sub>Card · HA 2024.1.0+ · 🇫🇷 France</sub> | **Fuel stations around your car** on a map and in a list: price, distance, last update, cheapest in green. Click a station to centre the map on it. Data from the [Prix Carburant](https://github.com/Aohzan/hass-prixcarburant) integration (France). | ![HACS Custom](https://img.shields.io/badge/HACS-Custom-orange.svg)<br>[Open in HACS / Marketplace](https://my.home-assistant.io/redirect/hacs_repository/?owner=akoonet-homeassistant&repository=Fuel-Map-Card&category=plugin) |
 
 ### Install with HACS / Marketplace
 
-![HACS Default](https://img.shields.io/badge/HACS-Default-41BDF5.svg) projects are in the **HACS / Marketplace default** repositories. ![HACS Custom](https://img.shields.io/badge/HACS-Custom-orange.svg) projects are not in the default list yet: the **Open in HACS / Marketplace** button offers to add them as a **custom repository** (category *Integration*). Click **Open in HACS / Marketplace** (or search the name in **HACS / Marketplace**), click **Download**, **restart** Home Assistant, then go to **Settings → Devices & services → Add integration**.
+![HACS Default](https://img.shields.io/badge/HACS-Default-41BDF5.svg) projects are in the **HACS / Marketplace default** repositories. ![HACS Custom](https://img.shields.io/badge/HACS-Custom-orange.svg) projects are not in the default list yet: the **Open in HACS / Marketplace** button offers to add them as a **custom repository** (category *Integration*, or *Dashboard* for a card). Click **Open in HACS / Marketplace** (or search the name in **HACS / Marketplace**), click **Download**, **restart** Home Assistant, then go to **Settings → Devices & services → Add integration**. A card alone (Fuel Map Card) needs nothing more: HACS registers the resource, just add the card to your dashboard. Fuel Map Card needs the [Prix Carburant](https://github.com/Aohzan/hass-prixcarburant) integration.
 
 ### Support & contributions
 
